@@ -1,0 +1,23 @@
+li {
+  color: #146EBE;
+  font-size: 16px;
+  padding:2px;
+  border: 2px solid transparent;
+  transition: 500ms border-color;
+  cursor: pointer;
+}
+
+a {
+  padding: 15px 24px;
+  display: block;
+}
+
+li:hover,
+li.active {
+  border-color: #146EBE;
+}
+
+li.active a {
+  color: #fff;
+  background: #146EBE;
+}

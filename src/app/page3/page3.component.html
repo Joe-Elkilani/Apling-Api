@@ -1,0 +1,16 @@
+<section class="section py-5">
+  <div class="container">
+    <div class="row g-3">
+      @for (item of dataOfRecipes.slice(12,18); track $index) {
+        <div class="col-lg-4 cardItem px-3">
+          <div class="inner shadow-lg bg-white rounded-4 overflow-hidden">
+            <img [src]="item.image_url" class="w-100" alt="Recipes Img">
+            <div class="text ps-2 py-2">
+              <h3>{{ item.title.split(" ").slice(0,3).join(" ") }}</h3>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

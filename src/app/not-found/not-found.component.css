@@ -1,0 +1,5 @@
+section {
+  height: calc(100vh - 68px);
+  background: url(/imgs/NotFound.jfif) no-repeat center;
+  background-size: cover;
+}

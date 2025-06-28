@@ -1,0 +1,35 @@
+.home {
+  height: calc(100vh - 68px);
+  background: linear-gradient(135deg, #146EBE, #0D3F75);
+  color: white;
+}
+
+.text {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.greeting {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffffcc;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
